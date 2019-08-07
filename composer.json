@@ -1,0 +1,20 @@
+{
+  "name": "yonatan_riaznov/php_demo",
+  "type": "project",
+  "require": {
+    "zircote/swagger-php": "^3.0"
+  },
+  "scripts": {
+    "docs": "swagger src/",
+    "clean": "\"./scripts/clean.bat\"",
+    "gen-api": "\"./scripts/generate-swagger-server.bat\"",
+    "gen-api-custom": "\"./scripts/generate-swagger-server-custom-template.bat\"",
+    "gen-api-custom-with-ignore": "\"./scripts/generate-swagger-server-custom-template-with-ignore.bat\"",
+    "gen-client": "\"./scripts/generate-swagger-client.bat\"",
+    "serve-api": "\"./scripts/run-api-server.bat\"",
+    "serve-client": "\"./scripts/run-client-server.bat\""
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}
